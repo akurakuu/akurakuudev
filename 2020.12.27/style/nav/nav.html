@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        nav
+    </title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="navd">
+        <ul>
+            <li>
+                <a href="../../index.html#" target="_parent" class="nav" id="navr">top</a>
+            </li>
+            <li>
+                <a href="../../index.html#youtube" target="_parent" class="nav">youtube</a>
+            </li>
+            <li>
+                <a href="../../index.html#twitter" target="_parent" class="nav">Twitter</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
+<style>
+    .navd {
+        background-color: rgb(60, 60, 60)
+    }
+
+    ul {
+        position: relative;
+        top: 0px;
+        text-align: right;
+        margin: 12px;
+        list-style: none;
+    }
+
+    .nav {
+        float: left;
+        margin-top: -5px;
+    }
+
+    .nav {
+        display: block;
+        font-size: 18px;
+        transition: 0.2s;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .fixed {
+        left: 0;
+        position: fixed;
+        top: 0;
+        background-color: rgba(60, 60, 60, 0.8);
+    }
+
+    .nav:hover {
+        color: rgb(0, 255, 0);
+    }
+
+    .nav:active {
+        color: rgb(255, 165, 0);
+        transition: none;
+    }
+
+    a {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    a,
+    a:visited,
+    a:active,
+    a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    a::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: rgb(255, 255, 255);
+        transform: scale(0, 1);
+        transform-origin: center;
+        transition: 0.3s;
+    }
+
+    a:hover::after {
+        transform: scale(1, 1);
+    }
+</style>

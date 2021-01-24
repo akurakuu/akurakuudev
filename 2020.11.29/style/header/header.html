@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        header
+    </title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <div id="main">
+            <a href="../../index.html" target="_parent">AKRAchannel</a>
+        </div>
+        <div id="sub" class="none">
+            ホームページ
+        </div>
+
+        <ul class="none2">
+            <li>
+                <a href="../../nav/チャンネル記事一覧.html" target="_parent" id="nav">チャンネル記事</a>
+            </li>
+            <li>
+                <a href="../../nav/記事一覧.html" target="_parent" id="nav">記事</a>
+            </li>
+            <li>
+                <a href="../../index.html" target="_parent" id="nav">HOME</a>
+            </li>
+        </ul>
+
+    </header>
+</body>
+
+</html>
+<style>
+    body {
+        background-color: greenyellow;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a,
+    a:visited,
+    a:active,
+    a:hover {
+        color: black;
+    }
+
+    div {
+        float: left;
+        margin-right: 2px;
+    }
+
+    div#main {
+        text-align: left;
+        font-size: 28px;
+        margin-left: 20px;
+    }
+
+    div#sub {
+        font-size: 22px;
+        position: relative;
+        top: 9px;
+    }
+
+    ul {
+        text-align: right;
+        margin: 12px;
+        list-style: none;
+        top: 10px;
+    }
+
+    ul li {
+        float: right;
+        margin-right: 0;
+    }
+
+    a#nav {
+        display: block;
+        font-size: 18px;
+        padding: 10px;
+        transition: 0.2s;
+    }
+
+    a#nav:hover {
+        background: green;
+    }
+
+    @media screen and (max-width: 700px) {
+        .none {
+            display: none
+        }
+    }
+</style>

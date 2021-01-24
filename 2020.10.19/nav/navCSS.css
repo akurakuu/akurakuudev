@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    height: 100%;
+    overflow: hidden;
+}
+p{
+    font-size: 18px;    
+}
+div{
+    background: white;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    margin: 30px auto;
+    border: 2px solid grey;
+}
+a, a:visited{
+    color: blue;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: red;
+    transition: none;
+}

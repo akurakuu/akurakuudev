@@ -1,0 +1,9 @@
+body{
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 30px;
+    color: black;
+}

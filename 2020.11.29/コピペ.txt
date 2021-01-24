@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        AKRAchannel
+    </title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+</body>
+</html>
+
+
+<iframe src="style/header/header.html" id="header"></iframe>
+
+<iframe src="style/footer/footer.html" id="footer"></iframe>

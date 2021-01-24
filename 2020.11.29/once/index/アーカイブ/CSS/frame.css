@@ -1,0 +1,26 @@
+html {
+ overflow: hidden;
+}
+
+#navi {
+ position:absolute ;
+ top:0 ;
+ left:0px ;
+ width:15% ;
+ height:100% ;
+ text-align:center ;
+}
+
+#contents {
+ position:absolute ;
+ top:0 ;
+ right:0 ;
+ left:15% ;
+ height:100% ;
+ border-left:2px solid black ;
+}
+
+iframe {
+  height:100% ;
+  width:100% ;
+}
