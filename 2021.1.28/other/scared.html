@@ -1,0 +1,27 @@
+<div id="a" style="font-size: 100px; text-align: center; position: relative; top: 40vh;"></div>
+<script text="type/javascript" src="../style/jquery-3.5.1.min.js"></script>
+<script>
+    var countup = function () {
+        var text = [
+            "縺ｿ縺ｪ縺輔ｓ縺薙ｓ縺ｫ縺｡縺ｯ",
+            "荳也阜縺薙ｓ縺ｫ縺｡縺ｯ",
+            "繧医≧縺薙◎",
+            "螳峨￥繧蛾峇鄒ｽ",
+            ";aw]e'er/]awef'",
+            "aioi90q9-348n",
+            ";'.awf?.thj;pdtyjdhdE"
+        ];
+        var text = text[Math.floor(Math.random() * text.length)]
+        $("#a").text(text);
+        setTimeout(function () {
+            window.location.href = '../index.html';
+        }, 2 * 1000);
+    }
+    setInterval(countup, 15);
+</script>
+
+<style>
+    body{
+        background-color: red;
+    }
+</style>
