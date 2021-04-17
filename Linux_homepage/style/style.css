@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.header_div {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0px 0px 25px rgb(0, 0, 0, 0.6);
+}
+
+h1 {
+    margin: 0;
+}
+
+.msg_title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.content_img {
+    height: 110vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content_block {
+    height: 50vh;
+}
+
+.content_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_msg {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+#bg_img1 {
+    background-image: url(image/image_1.png);
+}
+
+#bg_img2 {
+    background-image: url(image/image_2.png);
+}
+
+a,
+a:visited {
+    color: rgb(0, 0, 0);
+}
